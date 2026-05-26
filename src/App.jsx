@@ -154,7 +154,7 @@ export default function AmazonAffiliateStore() {
           <div className="max-w-7xl mx-auto flex items-center gap-6">
             <a href="https://www.amazon.in/" target="_blank" rel="noopener noreferrer" className="flex items-center">
               <img
-                src="TrendingZone\public\ChatGPT Image May 25, 2026, 04_49_02 PM.png"
+                src="TrendingZone\public\logo.png"
                 alt="TrendingDealZone Logo"
                 className="h-16 object-contain"
               />
@@ -208,7 +208,7 @@ export default function AmazonAffiliateStore() {
       <section id="home" className="bg-[#eaeded] border-b">
         <a href="https://www.amazon.in/" target="_blank" rel="noopener noreferrer">
           <img
-            src="/ChatGPT Image May 25, 2026, 04_49_02 PM(1).png"
+            src="TrendingZone\public\logo.png"
             alt="TrendingDealZone Banner"
             className="w-full rounded-2xl shadow-lg object-cover bg-white mb-6"
           />
@@ -450,7 +450,7 @@ export default function AmazonAffiliateStore() {
           </div>
 
           <a href="https://www.amazon.in/" target="_blank" rel="noopener noreferrer">
-            <img src="TrendingZone\public\ChatGPT Image May 25, 2026, 04_49_02 PM.png" alt="Footer Logo" className="h-14 object-contain" />
+            <img src="TrendingZone\public\logo.png" alt="Footer Logo" className="h-14 object-contain" />
           </a>
         </div>
       </footer>
