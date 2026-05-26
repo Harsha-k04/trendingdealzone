@@ -154,7 +154,7 @@ export default function AmazonAffiliateStore() {
           <div className="max-w-7xl mx-auto flex items-center gap-6">
             <a href="https://www.amazon.in/" target="_blank" rel="noopener noreferrer" className="flex items-center">
               <img
-                src="/ChatGPT Image May 25, 2026, 04_49_02 PM(1).png"
+                src="TrendingZone\public\ChatGPT Image May 25, 2026, 04_49_02 PM.png"
                 alt="TrendingDealZone Logo"
                 className="h-16 object-contain"
               />
