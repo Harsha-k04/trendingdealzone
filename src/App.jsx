@@ -173,8 +173,11 @@ export default function AmazonAffiliateStore() {
                   type="text"
                   placeholder="Search products..."
                   value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  className="border border-gray-300 rounded-2xl px-5 py-3 w-full md:w-80 outline-none focus:ring-2 focus:ring-yellow-400"
+                  onChange={(e) => {
+                    setSearchTerm(e.target.value);
+                    document.getElementById("products")?.scrollIntoView({ behavior: "smooth" });
+                  }}
+                  className="flex-1 px-5 py-3 outline-none text-black"
                 />
                 <button className="bg-[#facc15] px-8 text-black font-bold hover:bg-[#eab308] transition">
                   Search
@@ -326,7 +329,10 @@ export default function AmazonAffiliateStore() {
               type="text"
               placeholder="Search products..."
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e) => {
+                setSearchTerm(e.target.value);
+                document.getElementById("products")?.scrollIntoView({ behavior: "smooth" });
+              }}
               className="border border-gray-300 rounded-2xl px-5 py-3 w-full md:w-80 outline-none focus:ring-2 focus:ring-yellow-400"
             />
           </div>
