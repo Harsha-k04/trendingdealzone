@@ -1,3 +1,4 @@
+import { useState } from "react";
 export default function AmazonAffiliateStore() {
   const products = [
     {
@@ -145,6 +146,12 @@ export default function AmazonAffiliateStore() {
       link: 'https://www.amazon.in/s?k=Amazon+Echo+Dot+5th+Gen&tag=trendingde0e1-20'
     }
   ];
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const filteredProducts = products.filter((product) =>
+    product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    product.category.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <div className="min-h-screen bg-[#eaeded] text-gray-900 font-sans">
@@ -164,8 +171,10 @@ export default function AmazonAffiliateStore() {
               <div className="bg-white rounded-md flex overflow-hidden border border-gray-300 shadow-sm">
                 <input
                   type="text"
-                  placeholder="Search trending products"
-                  className="flex-1 px-4 py-3 text-black outline-none"
+                  placeholder="Search products..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="border border-gray-300 rounded-2xl px-5 py-3 w-full md:w-80 outline-none focus:ring-2 focus:ring-yellow-400"
                 />
                 <button className="bg-[#facc15] px-8 text-black font-bold hover:bg-[#eab308] transition">
                   Search
@@ -316,12 +325,14 @@ export default function AmazonAffiliateStore() {
             <input
               type="text"
               placeholder="Search products..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
               className="border border-gray-300 rounded-2xl px-5 py-3 w-full md:w-80 outline-none focus:ring-2 focus:ring-yellow-400"
             />
           </div>
 
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-            {products.map((product) => (
+            {filteredProducts.map((product) => (
               <div
                 key={product.id}
                 className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition duration-300 border border-gray-200 hover:-translate-y-1"
