@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "title": "boAt Airdopes 141 Bluetooth TWS Earbuds",
+    "price": "₹1,299",
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=1200&auto=format&fit=crop",
+    "category": "Electronics",
+    "rating": "4.4",
+    "link": "https://www.amazon.in/s?k=boAt+Airdopes+141&tag=trendingde0e1-20"
+  },
+  {
+    "id": 2,
+    "title": "Noise ColorFit Pro Smart Watch",
+    "price": "₹2,499",
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=1200&auto=format&fit=crop",
+    "category": "Smart Watches",
+    "rating": "4.3",
+    "link": "https://www.amazon.in/s?k=Noise+ColorFit+Pro+Smart+Watch&tag=trendingde0e1-20"
+  },
+  {
+    "id": 3,
+    "title": "Apple iPhone 15",
+    "price": "₹72,999",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1200&auto=format&fit=crop",
+    "category": "Mobiles",
+    "rating": "4.8",
+    "link": "https://www.amazon.in/s?k=Apple+iPhone+15&tag=trendingde0e1-20"
+  },
+  {
+    "id": 4,
+    "title": "ASUS TUF Gaming Laptop",
+    "price": "₹59,990",
+    "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?q=80&w=1200&auto=format&fit=crop",
+    "category": "Gaming",
+    "rating": "4.6",
+    "link": "https://www.amazon.in/s?k=ASUS+TUF+Gaming+Laptop&tag=trendingde0e1-20"
+  },
+  {
+    "id": 5,
+    "title": "Prestige Electric Rice Cooker",
+    "price": "₹2,799",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200&auto=format&fit=crop",
+    "category": "Home & Kitchen",
+    "rating": "4.5",
+    "link": "https://www.amazon.in/s?k=Prestige+Electric+Rice+Cooker&tag=trendingde0e1-20"
+  },
+  {
+    "id": 6,
+    "title": "Fire-Boltt Ninja Fitness Band",
+    "price": "₹1,499",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1200&auto=format&fit=crop",
+    "category": "Fitness",
+    "rating": "4.2",
+    "link": "https://www.amazon.in/s?k=Fire-Boltt+Ninja+Fitness+Band&tag=trendingde0e1-20"
+  },
+  {
+    "id": 7,
+    "title": "Logitech Wireless Gaming Mouse",
+    "price": "₹1,995",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?q=80&w=1200&auto=format&fit=crop",
+    "category": "Accessories",
+    "rating": "4.7",
+    "link": "https://www.amazon.in/s?k=Logitech+Wireless+Gaming+Mouse&tag=trendingde0e1-20"
+  },
+  {
+    "id": 8,
+    "title": "Sony WH-CH520 Bluetooth Headphones",
+    "price": "₹4,489",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1200&auto=format&fit=crop",
+    "category": "Audio",
+    "rating": "4.6",
+    "link": "https://www.amazon.in/s?k=Sony+WH-CH520+Bluetooth+Headphones&tag=trendingde0e1-20"
+  },
+  {
+    "id": 9,
+    "title": "Samsung Galaxy S24 Ultra",
+    "price": "₹1,09,999",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1200&auto=format&fit=crop",
+    "category": "Mobiles",
+    "rating": "4.8",
+    "link": "https://www.amazon.in/s?k=Samsung+Galaxy+S24+Ultra&tag=trendingde0e1-20"
+  },
+  {
+    "id": 10,
+    "title": "HP Victus Gaming Laptop",
+    "price": "₹67,990",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=1200&auto=format&fit=crop",
+    "category": "Laptops",
+    "rating": "4.5",
+    "link": "https://www.amazon.in/s?k=HP+Victus+Gaming+Laptop&tag=trendingde0e1-20"
+  },
+  {
+    "id": 11,
+    "title": "JBL Flip Bluetooth Speaker",
+    "price": "₹6,499",
+    "image": "https://images.unsplash.com/photo-1589003077984-894e133dabab?q=80&w=1200&auto=format&fit=crop",
+    "category": "Speakers",
+    "rating": "4.7",
+    "link": "https://www.amazon.in/s?k=JBL+Flip+Bluetooth+Speaker&tag=trendingde0e1-20"
+  },
+  {
+    "id": 12,
+    "title": "realme Buds Wireless 3",
+    "price": "₹1,799",
+    "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?q=80&w=1200&auto=format&fit=crop",
+    "category": "Audio",
+    "rating": "4.3",
+    "link": "https://www.amazon.in/s?k=realme+Buds+Wireless+3&tag=trendingde0e1-20"
+  },
+  {
+    "id": 13,
+    "title": "Philips Air Fryer",
+    "price": "₹8,999",
+    "image": "https://images.unsplash.com/photo-1585515656763-40743b9d1c1d?q=80&w=1200&auto=format&fit=crop",
+    "category": "Kitchen",
+    "rating": "4.6",
+    "link": "https://www.amazon.in/s?k=Philips+Air+Fryer&tag=trendingde0e1-20"
+  },
+  {
+    "id": 14,
+    "title": "Dell 24 Inch Monitor",
+    "price": "₹11,499",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?q=80&w=1200&auto=format&fit=crop",
+    "category": "Monitors",
+    "rating": "4.5",
+    "link": "https://www.amazon.in/s?k=Dell+24+Inch+Monitor&tag=trendingde0e1-20"
+  },
+  {
+    "id": 15,
+    "title": "MI Power Bank 20000mAh",
+    "price": "₹2,199",
+    "image": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?q=80&w=1200&auto=format&fit=crop",
+    "category": "Accessories",
+    "rating": "4.4",
+    "link": "https://www.amazon.in/s?k=MI+Power+Bank+20000mAh&tag=trendingde0e1-20"
+  },
+  {
+    "id": 16,
+    "title": "Amazon Echo Dot (5th Gen)",
+    "price": "₹5,499",
+    "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?q=80&w=1200&auto=format&fit=crop",
+    "category": "Smart Home",
+    "rating": "4.7",
+    "link": "https://www.amazon.in/s?k=Amazon+Echo+Dot+5th+Gen&tag=trendingde0e1-20"
+  }
+]
