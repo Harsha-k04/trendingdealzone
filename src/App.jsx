@@ -1,13 +1,28 @@
 import { useState } from "react";
 import products from "./data/products.json";
+import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
+import AffiliateDisclosure from './pages/AffiliateDisclosure.jsx'
+import TermsConditions from './pages/TermsConditions.jsx'
+
 export default function AmazonAffiliateStore() {
-  
+
   const [searchTerm, setSearchTerm] = useState("");
 
   const filteredProducts = products.filter((product) =>
     product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
     product.category.toLowerCase().includes(searchTerm.toLowerCase())
   );
+  if (window.location.pathname === "/privacy-policy") {
+    return <PrivacyPolicy />;
+  }
+
+  if (window.location.pathname === "/affiliate-disclosure") {
+    return <AffiliateDisclosure />;
+  }
+
+  if (window.location.pathname === "/terms-and-conditions") {
+    return <TermsConditions />;
+  }
 
   return (
     <div className="min-h-screen bg-[#eaeded] text-gray-900 font-sans">
@@ -319,6 +334,24 @@ export default function AmazonAffiliateStore() {
               <li><a href="#products" className="hover:text-yellow-400">Products</a></li>
               <li><a href="#blog" className="hover:text-yellow-400">Blog</a></li>
               <li><a href="#about" className="hover:text-yellow-400">About</a></li>
+
+              <li>
+                <a href="/privacy-policy" className="hover:text-yellow-400">
+                  Privacy Policy
+                </a>
+              </li>
+
+              <li>
+                <a href="/affiliate-disclosure" className="hover:text-yellow-400">
+                  Affiliate Disclosure
+                </a>
+              </li>
+
+              <li>
+                <a href="/terms-and-conditions" className="hover:text-yellow-400">
+                  Terms & Conditions
+                </a>
+              </li>
             </ul>
           </div>
 
