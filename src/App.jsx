@@ -12,15 +12,17 @@ export default function AmazonAffiliateStore() {
     product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
     product.category.toLowerCase().includes(searchTerm.toLowerCase())
   );
-  if (window.location.pathname === "/privacy-policy") {
+  const currentPath = window.location.pathname;
+
+  if (currentPath.includes("privacy-policy")) {
     return <PrivacyPolicy />;
   }
 
-  if (window.location.pathname === "/affiliate-disclosure") {
+  if (currentPath.includes("affiliate-disclosure")) {
     return <AffiliateDisclosure />;
   }
 
-  if (window.location.pathname === "/terms-and-conditions") {
+  if (currentPath.includes("terms-and-conditions")) {
     return <TermsConditions />;
   }
 
