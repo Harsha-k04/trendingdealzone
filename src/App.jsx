@@ -142,7 +142,16 @@ export default function AmazonAffiliateStore() {
           </div>
         </div>
       </section>
-
+      <div className="max-w-7xl mx-auto px-6 py-6">
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-2196374110725077"
+          data-ad-slot="2450954421"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+      </div>
       {/* Featured Categories */}
       <section className="max-w-7xl mx-auto px-6 py-10">
         <div className="text-center mb-12">
@@ -319,6 +328,16 @@ export default function AmazonAffiliateStore() {
           </article>
         </div>
       </section>
+
+      <div className="max-w-7xl mx-auto px-6 py-8">
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-2196374110725077"
+          data-ad-slot="9624913035"
+          data-ad-format="autorelaxed"
+        ></ins>
+      </div>
 
       <footer id="contact" className="bg-[#131a22] text-gray-300 py-12">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8 items-start">
